@@ -49,9 +49,7 @@ public class Main {
         }
     }
 
-    // ======================
-    // AGREGAR
-    // ======================
+   
     public void agregar() {
 
         if (nroUsuarios >= 100) {
@@ -77,9 +75,7 @@ public class Main {
         System.out.println("Usuario agregado");
     }
 
-    // ======================
-    // EDITAR
-    // ======================
+  
     public void editar() {
 
         System.out.print("Indice del usuario: ");
@@ -104,9 +100,7 @@ public class Main {
         System.out.println("Actualizado");
     }
 
-    // ======================
-    // VER
-    // ======================
+
     public void verUsuarios() {
 
         System.out.println("---- LISTA ----");
@@ -120,9 +114,7 @@ public class Main {
         }
     }
 
-    // ======================
-    // ELIMINAR
-    // ======================
+   
     public void eliminar() {
 
         System.out.print("Indice a eliminar: ");
@@ -143,9 +135,7 @@ public class Main {
         System.out.println("Eliminado");
     }
 
-    // ======================
-    // MENU
-    // ======================
+    
     public int menu() {
 
         System.out.println("\nMENU");
@@ -158,6 +148,10 @@ public class Main {
 
         int opcion = input.nextInt();
         input.nextLine();
+
+        return opcion;
+    }
+}
 
 
 
